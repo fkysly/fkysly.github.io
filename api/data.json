@@ -2,90 +2,104 @@
   "companyList": [
     { "key": "alibaba", "name": "阿里巴巴" },
     { "key": "tencent", "name": "腾讯" },
-    { "key": "baidu", "name": "百度" }
+    { "key": "baidu", "name": "百度" },
+    { "key": "huawei", "name": "华为" }
   ],
   "levels": [
     {
       "id": 0,
+      "huawei": { "title": ["13"], "span": 1, "salary": "15-18w" },
       "alibaba": { "title": ["P5", "工程师"], "span": 2, "salary": "20-30w" },
       "tencent": { "title": ["T2.1", "6级工程师"], "span": 1, "salary": "10-20w" },
       "baidu": { "title": ["T3"], "span": 1, "salary": "未知" }
     },
     {
       "id": 1,
+      "huawei": { "title": ["14"], "span": 1, "salary": "18-23w" },
       "alibaba": { "title": [], "span": 0 },
       "tencent": { "title": ["T2.2", "7级工程师"], "span": 1, "salary": "20-30w" },
       "baidu": { "title": ["T4"], "span": 1, "salary": "未知" }
     },
     {
       "id": 2,
+      "huawei": { "title": ["15"], "span": 1, "salary": "23-31w" },
       "alibaba": { "title": ["P6", "高级工程师"], "span": 2, "salary": "35-50w" },
       "tencent": { "title": ["T2.3", "8级工程师"], "span": 1, "salary": "30-40w" },
       "baidu": { "title": ["T5"], "span": 2, "salary": "30-45w" }
     },
     {
       "id": 3,
+      "huawei": { "title": ["16"], "span": 1, "salary": "31-40w" },
       "alibaba": { "title": [], "span": 0 },
       "tencent": { "title": ["T3.1", "9级工程师"], "span": 1, "salary": "40-50w" },
       "baidu": { "title": [], "span": 0 }
     },
     {
       "id": 4,
+      "huawei": { "title": ["17"], "span": 1, "salary": "40-50w" },
       "alibaba": { "title": ["P7", "技术专家"], "span": 2, "salary": "50-70w" },
-      "tencent": { "title": ["T3.2", "10级工程师"], "span": 1, "salary": "50-75w" },
-
+      "tencent": { "title": ["T3.2", "10级工程师"], "span": 2, "salary": "50-75w" },
       "baidu": { "title": ["T6"], "span": 2, "salary": "40-60w" }
     },
     {
       "id": 5,
+      "huawei": { "title": ["18"], "span": 1, "salary": "50-80w" },
       "alibaba": { "title": [], "span": 0 },
       "tencent": { "title": [], "span": 0 },
-      "baidu": { "title": [], "span": 0, "salary": "未知" }
+      "baidu": { "title": [], "span": 0 }
     },
     {
       "id": 6,
+      "huawei": { "title": ["19"], "span": 2, "salary": "80-100w" },
       "alibaba": { "title": ["P8", "高级技术专家"], "span": 2, "salary": "70-100w" },
       "tencent": { "title": ["T3.3", "11级工程师"], "span": 2, "salary": "70-100w" },
       "baidu": { "title": ["T7"], "span": 2, "salary": "55-80w" }
     },
     {
       "id": 7,
+      "huawei": { "title": [], "span": 0 },
       "alibaba": { "title": [], "span": 0 },
       "tencent": { "title": [], "span": 0 },
       "baidu": { "title": [], "span": 0 }
     },
     {
       "id": 8,
+      "huawei": { "title": ["20"], "span": 2, "salary": "100-130w" },
       "alibaba": { "title": ["P9", "资深技术专家"], "span": 2, "salary": "100-120w" },
       "tencent": { "title": ["T4.1", "12级工程师"], "span": 2, "salary": "120-160w" },
-      "baidu": { "title": ["T8"], "span": 2, "salary": "75-100w" }
+      "baidu": { "title": ["T8"], "span": 2, "salary": "80-100w" }
     },
     {
       "id": 9,
+      "huawei": { "title": [], "span": 0 },
       "alibaba": { "title": [], "span": 0 },
       "tencent": { "title": [], "span": 0 },
       "baidu": { "title": [], "span": 0 }
     },
     {
       "id": 10,
+      "huawei": { "title": ["21"], "span": 2, "salary": "未知" },
       "alibaba": { "title": ["P10", "研究员"], "span": 2, "salary": "150w+" },
       "tencent": { "title": ["T4.2", "13级工程师"], "span": 2, "salary": "200-300w" },
       "baidu": { "title": ["T9"], "span": 2, "salary": "100-150w" }
     },
     {
       "id": 11,
+      "huawei": { "title": [], "span": 0 },
       "alibaba": { "title": [], "span": 0 },
       "tencent": { "title": [], "span": 0 },
       "baidu": { "title": [], "span": 0 }
     },
     {
       "id": 12,
+      "huawei": { "title": ["22"], "span": 2, "salary": "未知" },
       "alibaba": { "title": ["P11", "高级研究员"], "span": 2, "salary": "未知" },
       "tencent": { "title": ["T4.3", "14级工程师"], "span": 2, "salary": "未知" },
       "baidu": { "title": ["T10"], "span": 2, "salary": "200w+" }
     },
     {
       "id": 13,
+      "huawei": { "title": [], "span": 0 },
       "alibaba": { "title": [], "span": 0 },
       "tencent": { "title": [], "span": 0 },
       "baidu": { "title": [], "span": 0 }
