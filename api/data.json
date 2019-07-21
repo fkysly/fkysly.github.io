@@ -7,45 +7,46 @@
   "levels": [
     {
       "id": 0,
-      "alibaba": { "title": ["p5", "工程师"], "span": 2 },
-      "tencent": { "title": ["T2.1", "6级工程师"], "span": 1 },
-      "baidu": { "title": ["T3"], "span": 1 }
+      "alibaba": { "title": ["P5", "工程师"], "span": 2, "salary": "20-30w" },
+      "tencent": { "title": ["T2.1", "6级工程师"], "span": 1, "salary": "10-20w" },
+      "baidu": { "title": ["T3"], "span": 1, "salary": "未知" }
     },
     {
       "id": 1,
       "alibaba": { "title": [], "span": 0 },
-      "tencent": { "title": ["T2.2", "7级工程师"], "span": 1 },
-      "baidu": { "title": ["T4"], "span": 1 }
+      "tencent": { "title": ["T2.2", "7级工程师"], "span": 1, "salary": "20-30w" },
+      "baidu": { "title": ["T4"], "span": 1, "salary": "未知" }
     },
     {
       "id": 2,
-      "alibaba": { "title": ["p6", "高级工程师"], "span": 2 },
-      "tencent": { "title": ["T2.3", "8级工程师"], "span": 2 },
-      "baidu": { "title": ["T5"], "span": 2 }
+      "alibaba": { "title": ["P6", "高级工程师"], "span": 2, "salary": "35-50w" },
+      "tencent": { "title": ["T2.3", "8级工程师"], "span": 1, "salary": "30-40w" },
+      "baidu": { "title": ["T5"], "span": 2, "salary": "30-45w" }
     },
     {
       "id": 3,
       "alibaba": { "title": [], "span": 0 },
-      "tencent": { "title": [], "span": 0 },
+      "tencent": { "title": ["T3.1", "9级工程师"], "span": 1, "salary": "40-50w" },
       "baidu": { "title": [], "span": 0 }
     },
     {
       "id": 4,
-      "alibaba": { "title": ["p7", "技术专家"], "span": 2 },
-      "tencent": { "title": ["T3.1", "9级工程师"], "span": 1 },
-      "baidu": { "title": ["T6"], "span": 2 }
+      "alibaba": { "title": ["P7", "技术专家"], "span": 2, "salary": "50-70w" },
+      "tencent": { "title": ["T3.2", "10级工程师"], "span": 1, "salary": "50-75w" },
+
+      "baidu": { "title": ["T6"], "span": 2, "salary": "40-60w" }
     },
     {
       "id": 5,
       "alibaba": { "title": [], "span": 0 },
-      "tencent": { "title": ["T3.2", "10级工程师"], "span": 1 },
-      "baidu": { "title": [], "span": 0 }
+      "tencent": { "title": [], "span": 0 },
+      "baidu": { "title": [], "span": 0, "salary": "未知" }
     },
     {
       "id": 6,
-      "alibaba": { "title": ["p8", "高级技术专家"], "span": 2 },
-      "tencent": { "title": ["T3.3", "11级工程师"], "span": 2 },
-      "baidu": { "title": ["T7"], "span": 2 }
+      "alibaba": { "title": ["P8", "高级技术专家"], "span": 2, "salary": "70-100w" },
+      "tencent": { "title": ["T3.3", "11级工程师"], "span": 2, "salary": "70-100w" },
+      "baidu": { "title": ["T7"], "span": 2, "salary": "55-80w" }
     },
     {
       "id": 7,
@@ -55,9 +56,9 @@
     },
     {
       "id": 8,
-      "alibaba": { "title": ["p9", "资深技术专家"], "span": 2 },
-      "tencent": { "title": ["T4.1", "12级工程师"], "span": 2 },
-      "baidu": { "title": ["T8"], "span": 2 }
+      "alibaba": { "title": ["P9", "资深技术专家"], "span": 2, "salary": "100-120w" },
+      "tencent": { "title": ["T4.1", "12级工程师"], "span": 2, "salary": "120-160w" },
+      "baidu": { "title": ["T8"], "span": 2, "salary": "75-100w" }
     },
     {
       "id": 9,
@@ -67,9 +68,9 @@
     },
     {
       "id": 10,
-      "alibaba": { "title": ["p10", "研究员"], "span": 2 },
-      "tencent": { "title": ["T4.2", "13级工程师"], "span": 2 },
-      "baidu": { "title": ["T9"], "span": 2 }
+      "alibaba": { "title": ["P10", "研究员"], "span": 2, "salary": "150w+" },
+      "tencent": { "title": ["T4.2", "13级工程师"], "span": 2, "salary": "200-300w" },
+      "baidu": { "title": ["T9"], "span": 2, "salary": "100-150w" }
     },
     {
       "id": 11,
@@ -79,9 +80,9 @@
     },
     {
       "id": 12,
-      "alibaba": { "title": ["p11", "高级研究员"], "span": 2 },
-      "tencent": { "title": ["T4.3", "14级工程师"], "span": 2 },
-      "baidu": { "title": ["T10"], "span": 2 }
+      "alibaba": { "title": ["P11", "高级研究员"], "span": 2, "salary": "未知" },
+      "tencent": { "title": ["T4.3", "14级工程师"], "span": 2, "salary": "未知" },
+      "baidu": { "title": ["T10"], "span": 2, "salary": "200w+" }
     },
     {
       "id": 13,
@@ -91,9 +92,9 @@
     },
     {
       "id": 14,
-      "alibaba": { "title": ["p12", "资深研究员"], "span": 2 },
-      "tencent": { "title": ["T5.1", "15级工程师"], "span": 2 },
-      "baidu": { "title": ["T11"], "span": 2 }
+      "alibaba": { "title": ["P12", "资深研究员"], "span": 2, "salary": "未知" },
+      "tencent": { "title": ["T5.1", "15级工程师"], "span": 2, "salary": "未知" },
+      "baidu": { "title": ["T11"], "span": 2, "salary": "未知" }
     },
     {
       "id": 15,
@@ -103,16 +104,20 @@
     },
     {
       "id": 16,
-      "alibaba": { "title": ["p13", "科学家"], "span": 2 },
-      "tencent": { "title": ["T5.2", "16级工程师"], "span": 2 },
-      "baidu": { "title": ["T12"], "span": 2 }
+      "alibaba": { "title": ["P13", "科学家"], "span": 2, "salary": "未知" },
+      "tencent": { "title": ["T5.2", "16级工程师"], "span": 2, "salary": "未知" },
+      "baidu": { "title": ["T12"], "span": 2, "salary": "未知" }
     },
-    { "id": 17, "alibaba": { "title": [], "span": 0 }, "tencent": { "title": [], "span": 0 } },
+    {
+      "id": 17,
+      "alibaba": { "title": [], "span": 0 },
+      "tencent": { "title": [], "span": 0 },
+      "baidu": { "title": [], "span": 0 }
+    },
     {
       "id": 18,
-      "alibaba": { "title": ["p14", "资深科学家"], "span": 2 },
-      "tencent": { "title": ["T5.3", "17级工程师"], "span": 2 },
-      "baidu": { "title": [], "span": 0 }
+      "alibaba": { "title": ["P14", "资深科学家"], "span": 2, "salary": "未知" },
+      "tencent": { "title": ["T5.3", "17级工程师"], "span": 2, "salary": "未知" }
     },
     { "id": 19, "alibaba": { "title": [], "span": 0 }, "tencent": { "title": [], "span": 0 } }
   ]
