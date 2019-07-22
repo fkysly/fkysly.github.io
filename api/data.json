@@ -4,11 +4,13 @@
     { "key": "tencent", "name": "腾讯" },
     { "key": "baidu", "name": "百度" },
     { "key": "huawei", "name": "华为" },
-    { "key": "google", "name": "谷歌" }
+    { "key": "google", "name": "谷歌" },
+    { "key": "meituan", "name": "美团点评" }
   ],
   "levels": [
     {
       "id": 0,
+      "meituan": { "title": ["T1-3"], "span": 1, "salary": "13-18w" },
       "google": { "title": ["L3", "SWE II"], "span": 2, "salary": "70-85w" },
       "huawei": { "title": ["13"], "span": 1, "salary": "15-18w" },
       "alibaba": { "title": ["P5", "工程师"], "span": 2, "salary": "20-30w" },
@@ -17,6 +19,7 @@
     },
     {
       "id": 1,
+      "meituan": { "title": ["T2-1"], "span": 1, "salary": "15-21w" },
       "google": { "title": [], "span": 0 },
       "huawei": { "title": ["14"], "span": 1, "salary": "18-23w" },
       "alibaba": { "title": [], "span": 0 },
@@ -25,6 +28,7 @@
     },
     {
       "id": 2,
+      "meituan": { "title": ["T2-2"], "span": 1, "salary": "21-45w" },
       "google": { "title": ["L4", "SWE III"], "span": 3, "salary": "85-100w" },
       "huawei": { "title": ["15"], "span": 1, "salary": "23-31w" },
       "alibaba": { "title": ["P6", "高级工程师"], "span": 2, "salary": "35-60w" },
@@ -33,6 +37,7 @@
     },
     {
       "id": 3,
+      "meituan": { "title": ["T2-3"], "span": 1, "salary": "40-52w" },
       "google": { "title": [], "span": 0 },
       "huawei": { "title": ["16"], "span": 1, "salary": "31-40w" },
       "alibaba": { "title": [], "span": 0 },
@@ -41,6 +46,7 @@
     },
     {
       "id": 4,
+      "meituan": { "title": ["T3-1"], "span": 2, "salary": "52-67w" },
       "google": { "title": [], "span": 0 },
       "huawei": { "title": ["17"], "span": 1, "salary": "40-60w" },
       "alibaba": { "title": ["P7", "技术专家"], "span": 2, "salary": "60-100w" },
@@ -49,6 +55,7 @@
     },
     {
       "id": 5,
+      "meituan": { "title": [], "span": 0 },
       "google": { "title": ["L5", "Senior SWE"], "span": 2, "salary": "100-120w" },
       "huawei": { "title": ["18"], "span": 1, "salary": "60-90w" },
       "alibaba": { "title": [], "span": 0 },
@@ -57,6 +64,7 @@
     },
     {
       "id": 6,
+      "meituan": { "title": ["T3-2"], "span": 2, "salary": "70w-100w" },
       "google": { "title": [], "span": 0 },
       "huawei": { "title": ["19"], "span": 2, "salary": "90-120w" },
       "alibaba": { "title": ["P8", "高级技术专家"], "span": 2, "salary": "100-150w" },
@@ -65,6 +73,7 @@
     },
     {
       "id": 7,
+      "meituan": { "title": [], "span": 0 },
       "google": { "title": ["L6", "Staff SWE"], "span": 2, "salary": "120-140w" },
       "huawei": { "title": [], "span": 0 },
       "alibaba": { "title": [], "span": 0 },
@@ -73,6 +82,7 @@
     },
     {
       "id": 8,
+      "meituan": { "title": ["T3-3"], "span": 2, "salary": "100-150w" },
       "google": { "title": [], "span": 0 },
       "huawei": { "title": ["20"], "span": 2, "salary": "120-150w" },
       "alibaba": { "title": ["P9", "资深技术专家"], "span": 2, "salary": "150w+" },
@@ -81,6 +91,7 @@
     },
     {
       "id": 9,
+      "meituan": { "title": [], "span": 0 },
       "google": { "title": ["L7", "Senior Staff SWE"], "span": 1, "salary": "140-180w" },
       "huawei": { "title": [], "span": 0 },
       "alibaba": { "title": [], "span": 0 },
@@ -89,14 +100,16 @@
     },
     {
       "id": 10,
+      "meituan": { "title": ["T4-1"], "span": 3, "salary": "未知" },
       "google": { "title": ["L8", "Principal Engineer"], "span": 2, "salary": "未知" },
       "huawei": { "title": ["21"], "span": 2, "salary": "未知" },
-      "alibaba": { "title": ["P10", "研究员"], "span": 2, "salary": "400w+" },
+      "alibaba": { "title": ["P10", "研究员"], "span": 2, "salary": "未知" },
       "tencent": { "title": ["T4.2", "13级工程师"], "span": 2, "salary": "200-300w" },
-      "baidu": { "title": ["T9"], "span": 2, "salary": "100-150w" }
+      "baidu": { "title": ["T9"], "span": 2, "salary": "未知" }
     },
     {
       "id": 11,
+      "meituan": { "title": [], "span": 0 },
       "google": { "title": [], "span": 0 },
       "huawei": { "title": [], "span": 0 },
       "alibaba": { "title": [], "span": 0 },
@@ -105,6 +118,7 @@
     },
     {
       "id": 12,
+      "meituan": { "title": [], "span": 0 },
       "google": { "title": ["L9", "Distinguished Engineer"], "span": 2, "salary": "未知" },
       "huawei": { "title": ["22"], "span": 2, "salary": "未知" },
       "alibaba": { "title": ["P11", "高级研究员"], "span": 2, "salary": "未知" },
