@@ -1,11 +1,104 @@
 {
   "companyList": [
-    { "key": "alibaba", "name": "阿里巴巴" },
-    { "key": "tencent", "name": "腾讯" },
-    { "key": "baidu", "name": "百度" },
-    { "key": "huawei", "name": "华为" },
-    { "key": "google", "name": "谷歌" },
-    { "key": "meituan", "name": "美团点评" }
+    {
+      "key": "alibaba",
+      "name": "阿里巴巴",
+      "recommendList": [
+        { "title": "阿里巴巴招聘官网", "url": "https://job.alibaba.com/zhaopin/index.htm" },
+        {
+          "title": "在阿里巴巴工作是怎样一番体验？",
+          "url": "https://www.zhihu.com/question/22394450"
+        },
+        {
+          "title": "阿里面试回来，想和Java程序员谈一谈",
+          "url": "https://www.jianshu.com/p/5681a1f0aad6"
+        },
+        {
+          "title": "我是如何在一晚上拿到阿里巴巴offer的？",
+          "url": "https://zhuanlan.zhihu.com/p/64396498"
+        },
+        {
+          "title": "我在阿里做技术面试官的一些经验",
+          "url": "https://github.com/lihongxun945/myblog/issues/40"
+        }
+      ]
+    },
+    {
+      "key": "tencent",
+      "name": "腾讯",
+      "recommendList": [
+        { "title": "腾讯招聘官网", "url": "https://careers.tencent.com/home.html" },
+        { "title": "在腾讯工作是一种什么体验?", "url": "https://www.zhihu.com/question/30383728" },
+        {
+          "title": "你不知道的腾讯社招面试经验",
+          "url": "https://www.cnblogs.com/p2227/p/tencent-interview.html"
+        },
+        {
+          "title": "刚毕业的我是如何拿到腾讯产品经理offer的",
+          "url": "http://www.pmtoo.com/article/61272.html"
+        }
+      ]
+    },
+    {
+      "key": "baidu",
+      "name": "百度",
+      "recommendList": [
+        { "title": "百度招聘官网", "url": "https://talent.baidu.com/external/baidu/index.html#/" },
+        {
+          "title": "在百度工作是一番怎样的体验？",
+          "url": "https://www.zhihu.com/question/24585699"
+        }
+      ]
+    },
+    {
+      "key": "huawei",
+      "name": "华为",
+      "recommendList": [
+        {
+          "title": "华为招聘官网",
+          "url": "http://career.huawei.com/reccampportal/campus4_index.html#campus4/content.html"
+        },
+        { "title": "在华为工作是怎样一番体验？", "url": "https://www.zhihu.com/question/21630492" }
+      ]
+    },
+    {
+      "key": "google",
+      "name": "谷歌",
+      "recommendList": [
+        { "title": "谷歌招聘官网", "url": "https://careers.google.com/jobs/?hl=zh_CN" },
+        {
+          "title": "在谷歌（Google）工作是怎样一番体验？",
+          "url": "https://www.zhihu.com/question/24290336"
+        },
+        {
+          "title": "如何得到 Google 的工作机会？",
+          "url": "https://www.zhihu.com/question/24099873"
+        },
+        {
+          "title": "中国工程师如何获 Google 的工作机会？",
+          "url": "https://www.zhihu.com/question/27261863"
+        }
+      ]
+    },
+    {
+      "key": "meituan",
+      "name": "美团点评",
+      "recommendList": [
+        { "title": "美团点评招聘官网", "url": "https://zhaopin.meituan.com/" },
+        {
+          "title": "在美团点评工作是一种怎样的体验？",
+          "url": "https://www.zhihu.com/question/68236315"
+        },
+        {
+          "title": "面试美团点评是怎样的一种体验？",
+          "url": "https://www.zhihu.com/question/54651819"
+        },
+        {
+          "title": "一位工作一年求职者的美团网面试回顾",
+          "url": "http://blog.ihuxu.com/the-programmer-working-for-one-year-interview-experience-for-meituan/"
+        }
+      ]
+    }
   ],
   "levels": [
     {
@@ -13,7 +106,17 @@
       "meituan": { "title": ["T1-3"], "span": 1, "salary": "13-18w" },
       "google": { "title": ["L3", "SWE II"], "span": 2, "salary": "70-85w" },
       "huawei": { "title": ["13"], "span": 1, "salary": "15-18w" },
-      "alibaba": { "title": ["P5", "工程师"], "span": 2, "salary": "20-30w" },
+      "alibaba": {
+        "title": ["P5", "工程师"],
+        "span": 2,
+        "salary": "20-30w",
+        "recommendList": [
+          {
+            "title": "阿里巴巴、美团等各大互联网公司的 Java 类校招对本科生的要求是什么？",
+            "url": "https://www.zhihu.com/question/26350691"
+          }
+        ]
+      },
       "tencent": { "title": ["T2.1", "6级工程师"], "span": 1, "salary": "10-20w" },
       "baidu": { "title": ["T3"], "span": 1, "salary": "13-26w" }
     },
@@ -31,7 +134,17 @@
       "meituan": { "title": ["T2-2"], "span": 1, "salary": "21-45w" },
       "google": { "title": ["L4", "SWE III"], "span": 3, "salary": "85-100w" },
       "huawei": { "title": ["15"], "span": 1, "salary": "23-31w" },
-      "alibaba": { "title": ["P6", "高级工程师"], "span": 2, "salary": "35-60w" },
+      "alibaba": {
+        "title": ["P6", "高级工程师"],
+        "span": 2,
+        "salary": "35-60w",
+        "recommendList": [
+          {
+            "title": "为什么强如『死月』在阿里也只有 p6?",
+            "url": "https://www.zhihu.com/question/326940670"
+          }
+        ]
+      },
       "tencent": { "title": ["T2.3", "8级工程师"], "span": 1, "salary": "30-40w" },
       "baidu": { "title": ["T5"], "span": 2, "salary": "30-45w" }
     },
@@ -49,7 +162,17 @@
       "meituan": { "title": ["T3-1"], "span": 2, "salary": "52-67w" },
       "google": { "title": [], "span": 0 },
       "huawei": { "title": ["17"], "span": 1, "salary": "40-60w" },
-      "alibaba": { "title": ["P7", "技术专家"], "span": 2, "salary": "60-100w" },
+      "alibaba": {
+        "title": ["P7", "技术专家"],
+        "span": 2,
+        "salary": "60-100w",
+        "recommendList": [
+          {
+            "title": "前端技术岗，阿里 P7、百度 T6、腾讯 T3.1 的要求是怎样的？",
+            "url": "https://www.zhihu.com/question/277437814/answer/461279486"
+          }
+        ]
+      },
       "tencent": { "title": ["T3.2", "10级工程师"], "span": 2, "salary": "50-75w" },
       "baidu": { "title": ["T6"], "span": 2, "salary": "40-60w" }
     },
@@ -103,7 +226,17 @@
       "meituan": { "title": ["T4-1"], "span": 3, "salary": "未知" },
       "google": { "title": ["L8", "Principal Engineer"], "span": 2, "salary": "未知" },
       "huawei": { "title": ["21"], "span": 2, "salary": "未知" },
-      "alibaba": { "title": ["P10", "研究员"], "span": 2, "salary": "未知" },
+      "alibaba": {
+        "title": ["P10", "研究员"],
+        "span": 2,
+        "salary": "未知",
+        "recommendList": [
+          {
+            "title": "阿里P10是什么样的存在？",
+            "url": "https://www.zhihu.com/question/307907539"
+          }
+        ]
+      },
       "tencent": { "title": ["T4.2", "13级工程师"], "span": 2, "salary": "200-300w" },
       "baidu": { "title": ["T9"], "span": 2, "salary": "未知" }
     },
