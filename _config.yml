@@ -95,3 +95,6 @@ collections:
 
 # Markdown rendering
 markdown: kramdown
+
+# Google Analytics
+google_analytics: G-ML5EP8PT1J
