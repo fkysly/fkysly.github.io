@@ -1,5 +1,5 @@
 #page title
-page_title: # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title: ThreadSave.app - Download Threads Video, Pictures, Threads Downloader# Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
 ios_app_id: 6477273240 # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
@@ -33,7 +33,7 @@ mastodon_link:
 # Feature List                            Edit, add or remove features to be presented.
 features:
   - title: Save with One Click
-    description: You can save the videos and Pictures from Threads by clicking the button.
+    description: You can save the videos and pictures from Threads by clicking the button.
     fontawesome_icon_name: arrow-alt-circle-down
 
   - title: Clean UI design
