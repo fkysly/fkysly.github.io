@@ -52,3 +52,5 @@ Updates for ThreadSave will be available through the App Store. You can enable a
 For any other inquiries or assistance, please contact our support team at support@threadsave.com.
 
 Thank you for using ThreadSave!
+
+If you have any questions, feel free to [contact us](mailto:threadsave.app@gmail.com).
