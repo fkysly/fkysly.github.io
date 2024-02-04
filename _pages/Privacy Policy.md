@@ -1,6 +1,6 @@
 ---
 layout: page
-title: FAQ
+title: Privacy Policy
 include_in_header: false
 ---
 # ThreadSave - Privacy Policy
