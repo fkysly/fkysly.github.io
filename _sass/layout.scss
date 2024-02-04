@@ -589,7 +589,9 @@ footer {
 .footerLinks {
   display: flex;
   text-align: center;
+  justify-content: center;
   padding-bottom: 70px;
+  flex: 0 0 100%;
 }
 
 .footerLinks a {
@@ -611,6 +613,7 @@ footer {
 @media only screen and (max-width: 768px) {
   .footerLinks {
     flex-direction: column;
+    flex: 0 0 100%;
   }
 
   .footerLinks a {
