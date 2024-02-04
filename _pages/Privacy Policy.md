@@ -1,4 +1,9 @@
-# Privacy Policy
+---
+layout: page
+title: FAQ
+include_in_header: false
+---
+# ThreadSave - Privacy Policy
 
 Last updated: February 03, 2024
 
